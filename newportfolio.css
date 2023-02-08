@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:white;
+}
+
+.sidebar{
+    background-color: rgb(244, 189, 189);
+    width: 40vw;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.main{
+    background-color: aqua;
+    width: 3500px;
+    
+    
+}
+.main :hover{
+
+}
+.container{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+.infocontainer{
+    /* background-color: blue; */
+    height: 50vh;
+    /* width: 500vw; */
+    /* margin-left: 500px auto; */
+    display: flex;
+}
+.hello{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 60%;
+}
+.buttons button{
+    margin: 10px 3px;
+    padding: 9px 14px;
+    background-color: #fff;
+    border-radius: 22px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 12px;
+}
+.devpic img{
+    margin-top: 200px;
+    margin-left: 120px;
+   border-radius: 200px;
+}
+.row{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+h4{
+    margin-top: 90px;
+}
+.about{
+    text-align: center;
+    margin-top: 100px;
+}
+.skill{
+    text-align: center;
+    margin-top: 100px;
+}
+.contact{
+    text-align: center;
+    margin-top: 100px;
+}
+.contact .form-control{
+    width: 40%;
+    margin-left: 25%;
+}
+ 
+.footer{
+    text-align: center;
+    margin-top: 80px;
+    background-color: coral;
+   }
+  
+   .fa{
+    /* margin-top: 100px; */
+    font-size: 30px;
+    color: black;
+    
+   
+   }
+   .fa:hover{
+    color: #ffffff;
+   }
+   .fa-facebook{
+    margin:0 1.5%  0;
+   }
